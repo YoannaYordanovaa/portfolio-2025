@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: "iglika.me",
-    desc: "Corporate website with a modern, responsive interface.",
+    desc: "Personal website with a modern, responsive interface.",
     tags: ["Frontend", "Backend", "AI", "Design"],
     link: "https://iglika.me",
     type: "Web Dev",
