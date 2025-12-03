@@ -372,18 +372,20 @@ const App = () => {
               <div className="flex flex-col gap-6 w-full md:w-auto">
                 <a 
                   href="mailto:ioannaiordanova99@gmail.com" 
-                  className="group flex items-center justify-between gap-6 px-8 py-6 bg-[#1F1614] border border-[#2c1a16] rounded-2xl hover:border-primary/50 transition-all duration-300"
+                  className="group flex items-center justify-between gap-6 px-6 py-6 bg-[#1F1614] border border-[#2c1a16] rounded-2xl hover:border-primary/50 transition-all duration-300"
                 >
-                  <div className="flex items-center gap-4">
-                    <div className="p-3 bg-[#2c1a16] rounded-full text-primary">
+                  <div className="flex items-center gap-4 min-w-0"> 
+                    <div className="p-3 bg-[#2c1a16] rounded-full text-primary flex-shrink-0">
                       <Mail size={24} />
                     </div>
-                    <div>
+                    <div className="min-w-0"> 
                       <span className="block text-xs font-bold text-secondary uppercase tracking-widest">Email Me</span>
-                      <span className="text-lg md:text-xl text-txt-main">ioannaiordanova99@gmail.com</span>
+                      <span className="text-sm sm:text-lg md:text-xl font-bold text-txt-main break-all">
+                        ioannaiordanova99@gmail.com
+                      </span>
                     </div>
                   </div>
-                  <ArrowRight className="text-txt-muted group-hover:text-primary group-hover:translate-x-1 transition-all" />
+                  <ArrowRight className="text-txt-muted group-hover:text-primary group-hover:translate-x-1 transition-all flex-shrink-0" />
                 </a>
 
                 <div className="flex gap-4">
