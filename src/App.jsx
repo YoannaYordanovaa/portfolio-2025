@@ -156,7 +156,7 @@ const App = () => {
           >
             {[...Array(4)].map((_, i) => (
               <span key={i} className="text-[6rem] md:text-[10rem] font-black uppercase tracking-tighter text-[#725c52] mr-16 leading-none">
-                Yoanna • Yordanova • 
+                Yoanna • Yordanova •
               </span>
             ))}
           </motion.div>
