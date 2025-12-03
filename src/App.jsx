@@ -122,7 +122,7 @@ const App = () => {
               
               <h1 className="font-sans text-4xl md:text-7xl font-extrabold mb-8 leading-tight text-txt-dark">
                 Building interfaces that feel <br/>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary via-orange-400 to-primary">Organic & Alive.</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary via-orange-400 to-primary">Organic & Alive</span>
               </h1>
               
               <p className="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl leading-relaxed font-medium">
@@ -156,7 +156,7 @@ const App = () => {
           >
             {[...Array(4)].map((_, i) => (
               <span key={i} className="text-[6rem] md:text-[10rem] font-black uppercase tracking-tighter text-[#725c52] mr-16 leading-none">
-                Design • Code • AI • Motion • Strategy •
+                Yoanna • Yordanova
               </span>
             ))}
           </motion.div>
