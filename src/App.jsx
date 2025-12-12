@@ -181,7 +181,7 @@ const App = () => {
                     title="Freelance Web Creator"
                     company="Self-employed"
                     descriptionPoints={[
-                      "Creating custom websites from concept to deployment (e.g., Rumen Aloe, Iglika.me).",
+                      "Creating custom websites from concept to deployment.",
                       "Implementing responsive designs using HTML, CSS, and WordPress.",
                       "Direct communication with clients to ensure vision alignment."
                     ]}
