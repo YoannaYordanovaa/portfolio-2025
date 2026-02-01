@@ -117,7 +117,7 @@ const App = () => {
             >
               <div className="flex items-center gap-2 mb-6 text-secondary font-bold tracking-widest uppercase text-xs md:text-sm font-sans">
                 <Sparkles size={16} className="text-secondary" />
-                <span>AI Front-end Candidate</span>
+                <span>Yoanna Yordanova</span>
               </div>
               
               <h1 className="font-sans text-4xl md:text-7xl font-extrabold mb-8 leading-tight text-txt-dark">
