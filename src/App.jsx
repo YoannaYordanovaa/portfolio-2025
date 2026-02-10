@@ -20,12 +20,12 @@ const projects = [
     image: "yoanna.jpg"
   },
   {
-    title: "iglika.me",
+    title: "miglenaavramova.com",
     desc: "Personal website with a modern, responsive interface.",
     tags: ["Frontend", "Backend", "AI", "Design"],
-    link: "https://iglika.me",
+    link: "https://miglenaavramova.com/",
     type: "Web Dev",
-    image: "iglika.jpg"
+    image: "miglena.png"
   },
   {
     title: "Figma Prototypes",
