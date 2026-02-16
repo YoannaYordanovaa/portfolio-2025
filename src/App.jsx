@@ -3,15 +3,15 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Github, ExternalLink, Mail, Sparkles, Code2, BrainCircuit, Terminal, Cpu, Layers, PenTool, Linkedin, MapPin, ArrowRight, Phone, Menu, X } from 'lucide-react';
 
 const projects = [
-  {
-    title: "ForeverBuddy",
-    desc: "Retrieval-Augmented Generation chatbot built with Gemini Custom Gems in under 6 hours.",
-    tags: ["AI", "Gemini", "Frontend"],
-    link: "https://foreverbuddy.netlify.app/", 
-    type: "AI Project",
-    image: "foreverbuddy.jpg"
+    {
+    title: "miglenaavramova.com",
+    desc: "Personal website with a modern, responsive interface.",
+    tags: ["Frontend", "Backend", "AI", "Design"],
+    link: "https://miglenaavramova.com/",
+    type: "Web Dev",
+    image: "miglena.png"
   },
-  {
+    {
     title: "yoannaflp.com",
     desc: "Personal website featuring custom design and smooth UX.",
     tags: ["Wordpress", "Design", "AI"],
@@ -20,12 +20,12 @@ const projects = [
     image: "yoanna.jpg"
   },
   {
-    title: "miglenaavramova.com",
-    desc: "Personal website with a modern, responsive interface.",
-    tags: ["Frontend", "Backend", "AI", "Design"],
-    link: "https://miglenaavramova.com/",
-    type: "Web Dev",
-    image: "miglena.png"
+    title: "ForeverBuddy",
+    desc: "Retrieval-Augmented Generation chatbot built with Gemini Custom Gems in under 6 hours.",
+    tags: ["AI", "Gemini", "Frontend"],
+    link: "https://foreverbuddy.netlify.app/", 
+    type: "AI Project",
+    image: "foreverbuddy.jpg"
   },
   {
     title: "Figma Prototypes",
@@ -297,14 +297,14 @@ const App = () => {
                     title={tech.name}
                   >
                     {tech.icon ? (
-                      <div className="text-[#9C6644] group-hover:text-primary transition-colors">
+                      <div className="text-primary transition-colors">
                         {tech.icon}
                       </div>
                     ) : (
                       <img 
                         src={tech.url} 
                         alt={tech.name} 
-                        className="h-8 md:h-10 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                        className="h-8 md:h-10 w-auto object-contain opacity-100 transition-all duration-300"
                       />
                     )}
                   </motion.div>
