@@ -221,7 +221,7 @@ const App = () => {
                        </div>
                     
                        <div>
-                          <span className="text-xs text-secondary font-bold tracking-widest uppercase block mb-1">2022 — Ongoing</span>
+                          <span className="text-xs text-secondary font-bold tracking-widest uppercase block mb-1">2022 — 2026</span>
                           <h3 className="text-xl font-bold text-txt-dark">Bachelor's in Computer Science</h3>
                           <p className="text-gray-600">University of Library Studies and Information Technologies</p>
                        </div>
