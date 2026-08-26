@@ -4,24 +4,24 @@ import { Github, ExternalLink, Mail, Sparkles, Code2, BrainCircuit, Terminal, Cp
 
 const projects = [
     {
-    title: "miglenaavramova.com",
-    desc: "Personal website with a modern, responsive interface.",
+    title: "iglika.me",
+    desc: "A fully custom personal site blending clean design with AI-assisted development - built from concept to deployment for speed and responsiveness.",
     tags: ["Frontend", "Backend", "AI", "Design"],
-    link: "https://miglenaavramova.com/",
+    link: "https://iglika.me/",
     type: "Web Dev",
-    image: "miglena.png"
+    image: "iglika.png"
   },
     {
-    title: "yoannaflp.com",
-    desc: "Personal website featuring custom design and smooth UX.",
+    title: "petyamanolova.com",
+    desc: "Custom WordPress design tailored to the client's brand, with a focus on smooth navigation and visual storytelling.",
     tags: ["Wordpress", "Design", "AI"],
-    link: "https://yoannaflp.com",
-    type: "Web Dev",
-    image: "yoanna.jpg"
+    link: "https://petyamanolova.com/",
+    type: "Wordpress",
+    image: "Petya.png"
   },
   {
     title: "ForeverBuddy",
-    desc: "Retrieval-Augmented Generation chatbot built with Gemini Custom Gems in under 6 hours.",
+    desc: "A RAG-powered AI chatbot built with Gemini Custom Gems - from idea to live deploy in under 24 hours.",
     tags: ["AI", "Gemini", "Frontend"],
     link: "https://foreverbuddy.netlify.app/", 
     type: "AI Project",
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     title: "Figma Prototypes",
-    desc: "A collection of high-fidelity designs and wireframes in Figma.",
+    desc: "High-fidelity UI designs and interactive prototypes exploring layout, flow, and visual detail.",
     tags: ["Figma", "Prototyping", "Design System"],
     link: "https://www.figma.com/design/hHEZ9jouv9CgMMaIDdVr1q/Figma_Projects?node-id=0-1&m=dev&t=s5JPU69yBjrevlAv-1",
     type: "Design",
@@ -272,7 +272,7 @@ const App = () => {
               <SkillCard 
                 icon={<BrainCircuit size={32} className="text-primary" />}
                 title="AI Native Workflow"
-                desc="Leveraging Gemini, ChatGPT, and Custom Gems daily to accelerate coding and solve backend challenges."
+                desc="Using AI tools and models regularly to speed up development and tackle backend challenges."
               />
               <SkillCard 
                 icon={<Code2 size={32} className="text-orange-300" />}
