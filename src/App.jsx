@@ -23,7 +23,7 @@ const projects = [
     title: "ForeverBuddy",
     desc: "A RAG-powered AI chatbot built with Gemini Custom Gems - from idea to live deploy in under 24 hours.",
     tags: ["AI", "Gemini", "Frontend"],
-    link: "https://foreverbuddy.netlify.app/", 
+    link: "https://foreverbuddy.jjdesignlab.com/", 
     type: "AI Project",
     image: "foreverbuddy.png"
   },
