@@ -25,7 +25,7 @@ const projects = [
     tags: ["AI", "Gemini", "Frontend"],
     link: "https://foreverbuddy.netlify.app/", 
     type: "AI Project",
-    image: "foreverbuddy.jpg"
+    image: "foreverbuddy.png"
   },
   {
     title: "Figma Prototypes",
